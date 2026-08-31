@@ -3,17 +3,15 @@
  <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
-  <title>
-   Chi siamo | Humanitarno Zdruzenie Labunishta Italia
-  </title>
-  <meta content="Storia, valori e missione di Humanitarno Zdruzenie Labunishta Italia: unire la diaspora e aiutare chi ne ha bisogno." name="description"/>
+  <title>Attività — Humanitarno Zdruzenie Labunishta Italia</title>
+  <meta content="Le gallerie fotografiche delle attività e degli eventi dell'associazione: iftar, picnic e momenti di comunità." name="description"/>
    <link href="favicon.png" rel="icon" type="image/png"/>
   <link href="apple-touch-icon.png" rel="apple-touch-icon"/>
   <meta content="#073f2b" name="theme-color"/>
-  <link href="chi-siamo.html" hreflang="it" rel="alternate"/>
-  <link href="chi-siamo-mk.html" hreflang="mk" rel="alternate"/>
-  <meta content="Chi siamo | Humanitarno Zdruzenie Labunishta Italia" property="og:title"/>
-  <meta content="Storia, valori e missione di Humanitarno Zdruzenie Labunishta Italia: unire la diaspora e aiutare chi ne ha bisogno." property="og:description"/>
+  <link href="attivita.html" hreflang="it" rel="alternate"/>
+  <link href="attivita-mk.html" hreflang="mk" rel="alternate"/>
+  <meta content="Attività — Humanitarno Zdruzenie Labunishta Italia" property="og:title"/>
+  <meta content="Le gallerie fotografiche delle attività e degli eventi." property="og:description"/>
   <meta content="logo.jpeg" property="og:image"/>
   <meta content="website" property="og:type"/>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
@@ -38,7 +36,7 @@
      </div>
     </a>
     <div class="navTools">
-     <a aria-label="Passa al macedone" class="langSwitch" href="chi-siamo-mk.html">🇲🇰</a>
+     <a aria-label="Passa al macedone" class="langSwitch" href="attivita-mk.html">🇲🇰</a>
     <button aria-expanded="false" aria-label="Apri il menu" class="menuBtn" onclick="toggleMenu()">
      ☰
     </button>
@@ -47,13 +45,13 @@
      <a href="index.html">
       Home
      </a>
-     <a class="active" href="chi-siamo.html">
+     <a href="chi-siamo.html">
       Chi siamo
      </a>
      <a href="programma-attivita.html">
       Programma
      </a>
-     <a href="attivita.html">
+     <a class="active" href="attivita.html">
       Attività
      </a>
      <a href="trasparenza.html">
@@ -74,49 +72,27 @@
      <a href="index.html">
       Home
      </a>
-     / Chi siamo
+     / Attività
     </div>
     <h1>
-     Chi siamo
+     Attività
     </h1>
     <p>
-     Un’associazione nata per unire la diaspora di Labunishta in Italia e promuovere iniziative di solidarietà.
+     Le foto dei momenti più belli della nostra comunità, raccolte in gallerie.
     </p>
    </div>
   </section>
   <main class="content">
-   <div class="wrap split">
-    <section class="panel">
-     <span class="kicker">
-      Identità
-     </span>
-     <h2>
-      Humanitarno Zdruzenie Labunishta Italia
-     </h2>
-     <p class="lead">
-      Humanitarno Zdruzenie Labunishta Italia è un'associazione senza scopo di lucro che promuove l'unione, la collaborazione e il sostegno della comunità e della diaspora di Labunishta residente in Italia, impegnandosi al contempo nella realizzazione di iniziative umanitarie e solidali a favore delle famiglie e delle persone in situazione di bisogno.
-     </p>
-    </section>
-    <section class="panel">
-     <span class="kicker">
-      Missione
-     </span>
-     <h2>
-      Solidarietà, trasparenza e responsabilità
-     </h2>
-     <ul class="list">
-      <li>
-       Rafforzare i legami tra i membri della comunità e della diaspora.
-      </li>
-      <li>
-       Promuovere iniziative umanitarie a favore di chi necessita di sostegno.
-      </li>
-      <li>
-       Operare con serietà, discrezione e trasparenza nella gestione delle attività.
-      </li>
-     </ul>
-    </section>
-   </div>
+   <section class="content">
+    <div class="wrap">
+     <div class="head" data-reveal="">
+      <span class="kicker">Le nostre attività</span>
+      <h2>Gallerie fotografiche</h2>
+      <p class="lead">Tocca una galleria per sfogliare le foto dell'evento.</p>
+     </div>
+     <div class="galleryGrid" id="galleryGrid"></div>
+    </div>
+   </section>
   </main>
   <div aria-hidden="true" class="popup-overlay" id="whatsappPopup">
    <div aria-labelledby="whatsappTitle" aria-modal="true" class="popup-box" role="dialog">
@@ -199,6 +175,8 @@
   <script src="script.js">
   </script>
   <script src="annuncio.js">
+  </script>
+  <script src="gallerie.js">
   </script>
    <script data-goatcounter="https://hzlabunishta.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
