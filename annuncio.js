@@ -79,6 +79,9 @@ const ANNUNCIO = {
 (function () {
   if (!ANNUNCIO.attivo) return;
 
+   var pag = location.pathname.split('/').pop().toLowerCase();
+  if (ANNUNCIO.soloHome && pag !== '' && pag !== 'index.html' && pag !== 'index-mk.html') return;
+
   var mk = document.documentElement.lang === 'mk';
   var T = {
     occhiello: mk ? ANNUNCIO.occhielloMk : ANNUNCIO.occhiello,
