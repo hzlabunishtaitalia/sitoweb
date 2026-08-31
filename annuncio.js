@@ -17,6 +17,9 @@ const ANNUNCIO = {
 
   attivo: true,                    // true = si vede, false = spento
 
+   soloHome: true,                //true = solo nella home  false = su tutte le pagine del sito
+                                            
+
   /* --- COME SI PRESENTA L'AVVISO ---
      "locandina" = si apre direttamente la locandina a tutto schermo
                    (l'immagine qui sotto, con la X per chiudere)
