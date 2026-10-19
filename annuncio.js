@@ -15,7 +15,7 @@
 
 const ANNUNCIO = {
 
-  attivo: true,                    // true = si vede, false = spento
+  attivo: false,                    // true = si vede, false = spento
 
    soloHome: true,                //true = solo nella home  false = su tutte le pagine del sito
                                             
