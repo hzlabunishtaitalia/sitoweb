@@ -22,6 +22,21 @@
 
 const GALLERIE = [
   {
+    cartella: "assets/gallerie/donatorska-vecer-2026/",
+    foto: ["foto-01.jpg", "foto-02.jpg", "foto-03.jpg", "foto-04.jpg", "foto-05.jpg",
+           "foto-06.jpg", "foto-07.jpg", "foto-08.jpg", "foto-09.jpg", "foto-10.jpg",
+           "foto-11.jpg", "foto-12.jpg", "foto-13.jpg", "foto-14.jpg", "foto-15.jpg",
+           "foto-16.jpg", "foto-17.jpg", "foto-18.jpg", "foto-19.jpg", "foto-20.jpg",
+           "foto-21.jpg", "foto-22.jpg", "foto-23.jpg", "foto-24.jpg", "foto-25.jpg",
+           "foto-26.jpg"],
+    titolo: "Donatorska Večer 2026",
+    titoloMk: "Донаторска вечер 2026",
+    data: "17 ottobre 2026",
+    dataMk: "17 октомври 2026",
+    descrizione: "La cena dei donatori organizzata dall'associazione presso il Centro Islamico Emanet di Susegana: preghiera, cena insieme e serata con interventi.",
+    descrizioneMk: "Донаторската вечер организирана од здружението во Исламскиот центар Еманет во Сусегана: молитва, заедничка вечера и вечер со предавања."
+  },
+  {
     cartella: "assets/gallerie/iftar-2026/",
     foto: ["foto-01.jpg", "foto-02.jpg", "foto-03.jpg", "foto-04.jpg", "foto-05.jpg",
            "foto-06.jpg", "foto-07.jpg", "foto-08.jpg", "foto-09.jpg", "foto-10.jpg",
